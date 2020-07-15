@@ -11,7 +11,7 @@ import {StyleSheet} from 'react-native'
       justifyContent: 'center'
     },
     mid: {
-      height: 150,
+      height: 140,
       backgroundColor: '#A9A9A9',
       alignItems: 'center',
       justifyContent: 'flex-start',
@@ -24,11 +24,24 @@ import {StyleSheet} from 'react-native'
     description: {
       fontSize: 14,
       color: 'black',
-    },
+      textAlign: 'center',
+      marginHorizontal: 20,
+      marginBottom: 4
+      },
     additionalInfo: {
-      fontSize: 24,
-      fontFamily: 'HelveticaNeue',
-      fontWeight: 'bold'
+      fontWeight: 'bold',
+      fontSize: 18,
+      textAlign: 'center',
+      marginTop: 5
+    },
+    numbers: {
+      textAlign: 'center',
+      fontSize: 16
+    },
+    repoCard: {
+      flexDirection: 'row',
+      borderColor:'#DCDCDC',
+      borderBottomWidth: 1
     }
 });
 
